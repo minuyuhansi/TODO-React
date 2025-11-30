@@ -1,16 +1,58 @@
-# React + Vite
+# 📝 React Todo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and beautiful **Todo Application** built using **React + Vite**, **Tailwind CSS**, and **Local Storage**.  
+This supports **Dark/Light themes**, editing todos, marking as completed, reordering items, and deleting todos.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Features
 
-## React Compiler
+### ✔️ Core Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Add new todos
+- Edit existing todos
+- Delete todos
+- Mark todos as completed
+- Move todos **up & down**
+- Stores everything in **localStorage** (your data never disappears)
 
-## Expanding the ESLint configuration
+### 🎨 UI Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Fully responsive clean UI
+- **Dark mode + Light mode** (toggle anytime)
+- Smooth modern design using Tailwind CSS
+- Rounded card-style todo items
+
+---
+
+## 🚀 Tech Stack
+
+| Technology            | Usage                           |
+| --------------------- | ------------------------------- |
+| **React + Vite**      | UI, Components, Fast Dev Server |
+| **Tailwind CSS**      | Styling                         |
+| **Context API**       | Global State Management         |
+| **LocalStorage**      | Data Persistence                |
+| **JavaScript (ES6+)** | Logic                           |
+
+---
+
+## 📸 Screenshots
+
+### 🌞 Light Mode
+
+<img src="../screenshots/light.png" width="500"/>
+
+### 🌙 Dark Mode
+
+<img src="../screenshots/dark.png" width="500"/>
+
+---
+
+## 🔧 Run Locally
+
+### 1. Clone the project
+
+```bash
+git clone https://github.com/minuyuhansi/TODO-React.git
+```
